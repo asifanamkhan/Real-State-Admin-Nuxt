@@ -1,0 +1,31 @@
+.sidebar-toggle-btn {
+  position: fixed;
+  top: 12px;
+  left: 240px;
+  background: transparent;
+  color: black;
+  border: none;
+  transition: all 0.5s ease;
+  z-index: 999999;
+
+  &:focus,
+  &:active,
+  &:hover {
+    background: transparent !important;
+    color: black !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.sidebar-toggle-btn-left {
+  left: 0;
+}
+
+main {
+  transition: padding-left .5s;
+}
+
+.add-padding {
+  padding-left: 235px;
+}
