@@ -1,5 +1,3 @@
-# sheanch-home-dashboard
-
 ## Build Setup
 
 ```bash
